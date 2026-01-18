@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* nav bar style */
+.nav-room {
+  border: 2px solid pink;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
