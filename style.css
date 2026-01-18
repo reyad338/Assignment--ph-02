@@ -1,17 +1,103 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
-/* nav bar style */
-.nav-room {
-  border: 2px solid pink;
+/* navbar start */
+.navbar {
+
   display: flex;
-  justify-content: space-between;
-  padding: 30px;
+  justify-content: space-around;
+  width: 100%;
+  height: 92px;
+  align-items: center;
+  background-color: #1A0B2E;
 }
 
-.menu {
+.navbar>h3 {
+  color: aliceblue;
+}
+
+.nav-links {
   display: flex;
-  gap: 20px;
+  gap: 80px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.van {
+  display: none;
+
+}
+
+.btn {
+  color: blue;
+  background: springgreen;
+  width: 135px;
+  height: 45px;
+}
+
+/* navbar end */
+
+/* hero section start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .van {
+    display: inline;
+    color: white;
+  }
 }
