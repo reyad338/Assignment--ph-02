@@ -45,6 +45,14 @@
   width: 135px;
   height: 45px;
   cursor: pointer;
+  transition: 2s linear;
+}
+
+/* smooth transiton */
+.btn:hover {
+  width: 200px;
+  color: red;
+  transform: rotate(10deg);
 }
 
 .multi {
